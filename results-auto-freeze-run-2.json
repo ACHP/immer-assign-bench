@@ -1,0 +1,1487 @@
+{
+  "startedAt": "2026-10-21T14:26:25.453Z",
+  "environment": {
+    "node": "v26.9.0",
+    "nodeBinary": "/opt/homebrew/Cellar/node/26.9.0/bin/node",
+    "v8": "14.6.202.34-node.32",
+    "platform": "darwin",
+    "release": "25.6.0",
+    "architecture": "arm64",
+    "cpu": "Apple M1",
+    "logicalCpus": 8,
+    "memoryBytes": 17179869184
+  },
+  "configuration": {
+    "autoFreeze": true,
+    "iterations": 200,
+    "warmup": 20,
+    "batchSize": 20,
+    "sizes": [
+      200,
+      1000,
+      3000,
+      10000
+    ],
+    "versions": [
+      {
+        "alias": "immer-10.1.1",
+        "version": "10.1.1"
+      },
+      {
+        "alias": "immer-10.2.0",
+        "version": "10.2.0"
+      },
+      {
+        "alias": "immer-11.0.0",
+        "version": "11.0.0"
+      },
+      {
+        "alias": "immer-latest",
+        "version": "11.2.6"
+      }
+    ]
+  },
+  "results": [
+    {
+      "shape": "nested",
+      "size": 200,
+      "scenario": "nested",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 0.8777919999999853,
+      "p90Ms": 1.0394170000000145
+    },
+    {
+      "shape": "nested",
+      "size": 200,
+      "scenario": "nested",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 0.5374580000000151,
+      "p90Ms": 0.6510830000000283
+    },
+    {
+      "shape": "nested",
+      "size": 200,
+      "scenario": "nested",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.6280624999999986,
+      "p90Ms": 1.2958750000000236
+    },
+    {
+      "shape": "nested",
+      "size": 200,
+      "scenario": "nested",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.8179784999999242,
+      "p90Ms": 2.1802920000000086
+    },
+    {
+      "shape": "nested",
+      "size": 200,
+      "scenario": "nested-frozen",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 0.010208499999976084,
+      "p90Ms": 0.020959000000175365
+    },
+    {
+      "shape": "nested",
+      "size": 200,
+      "scenario": "nested-frozen",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.003479500000025837,
+      "p90Ms": 0.01675000000000182
+    },
+    {
+      "shape": "nested",
+      "size": 200,
+      "scenario": "nested-frozen",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.0035205000000360087,
+      "p90Ms": 0.020541999999977634
+    },
+    {
+      "shape": "nested",
+      "size": 200,
+      "scenario": "nested-frozen",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 0.004207999999948697,
+      "p90Ms": 0.02783299999987321
+    },
+    {
+      "shape": "nested",
+      "size": 200,
+      "scenario": "top-level",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.22058349999997517,
+      "p90Ms": 0.5496660000001157
+    },
+    {
+      "shape": "nested",
+      "size": 200,
+      "scenario": "top-level",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.4207294999999931,
+      "p90Ms": 1.0331249999999272
+    },
+    {
+      "shape": "nested",
+      "size": 200,
+      "scenario": "top-level",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 1.573853999999983,
+      "p90Ms": 3.4943750000002183
+    },
+    {
+      "shape": "nested",
+      "size": 200,
+      "scenario": "top-level",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 0.7967294999998558,
+      "p90Ms": 1.5724169999998594
+    },
+    {
+      "shape": "nested",
+      "size": 200,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.8972085000000334,
+      "p90Ms": 3.0482499999998254
+    },
+    {
+      "shape": "nested",
+      "size": 200,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 1.008583499999986,
+      "p90Ms": 2.462416999999732
+    },
+    {
+      "shape": "nested",
+      "size": 200,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 0.5809579999997823,
+      "p90Ms": 1.0753749999998945
+    },
+    {
+      "shape": "nested",
+      "size": 200,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.5373544999997648,
+      "p90Ms": 0.664958000000297
+    },
+    {
+      "shape": "nested",
+      "size": 200,
+      "scenario": "replace-nested-object",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 0.8661249999995562,
+      "p90Ms": 1.139791000000514
+    },
+    {
+      "shape": "nested",
+      "size": 200,
+      "scenario": "replace-nested-object",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 0.5700209999995423,
+      "p90Ms": 1.396375000000262
+    },
+    {
+      "shape": "nested",
+      "size": 200,
+      "scenario": "replace-nested-object",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.5393125000000509,
+      "p90Ms": 0.7477500000004511
+    },
+    {
+      "shape": "nested",
+      "size": 200,
+      "scenario": "replace-nested-object",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.564124499999707,
+      "p90Ms": 0.7470419999999649
+    },
+    {
+      "shape": "nested",
+      "size": 1000,
+      "scenario": "nested",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 4.6155619999995,
+      "p90Ms": 5.974124999999731
+    },
+    {
+      "shape": "nested",
+      "size": 1000,
+      "scenario": "nested",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 2.8539789999995264,
+      "p90Ms": 3.3327909999998155
+    },
+    {
+      "shape": "nested",
+      "size": 1000,
+      "scenario": "nested",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 2.774958500000139,
+      "p90Ms": 4.948083000000224
+    },
+    {
+      "shape": "nested",
+      "size": 1000,
+      "scenario": "nested",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 2.585229000000254,
+      "p90Ms": 3.372958999999355
+    },
+    {
+      "shape": "nested",
+      "size": 1000,
+      "scenario": "nested-frozen",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 0.0024169999996956903,
+      "p90Ms": 0.008417000000918051
+    },
+    {
+      "shape": "nested",
+      "size": 1000,
+      "scenario": "nested-frozen",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.0028750000001309672,
+      "p90Ms": 0.005041000000346685
+    },
+    {
+      "shape": "nested",
+      "size": 1000,
+      "scenario": "nested-frozen",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.0029169999997975538,
+      "p90Ms": 0.003958999999667867
+    },
+    {
+      "shape": "nested",
+      "size": 1000,
+      "scenario": "nested-frozen",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 0.003416999999899417,
+      "p90Ms": 0.004291999999622931
+    },
+    {
+      "shape": "nested",
+      "size": 1000,
+      "scenario": "top-level",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.6639374999995198,
+      "p90Ms": 0.8745840000010503
+    },
+    {
+      "shape": "nested",
+      "size": 1000,
+      "scenario": "top-level",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.6998749999993379,
+      "p90Ms": 0.9582080000000133
+    },
+    {
+      "shape": "nested",
+      "size": 1000,
+      "scenario": "top-level",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 4.373687499999505,
+      "p90Ms": 5.175999999999476
+    },
+    {
+      "shape": "nested",
+      "size": 1000,
+      "scenario": "top-level",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 2.758646000000226,
+      "p90Ms": 3.2375840000004246
+    },
+    {
+      "shape": "nested",
+      "size": 1000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 2.4536244999999326,
+      "p90Ms": 2.9136669999988953
+    },
+    {
+      "shape": "nested",
+      "size": 1000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 4.378500500000882,
+      "p90Ms": 5.583708000000115
+    },
+    {
+      "shape": "nested",
+      "size": 1000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 2.7194165000000794,
+      "p90Ms": 3.423291999999492
+    },
+    {
+      "shape": "nested",
+      "size": 1000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 2.423812999999427,
+      "p90Ms": 2.931291999999303
+    },
+    {
+      "shape": "nested",
+      "size": 1000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 4.316687500000626,
+      "p90Ms": 4.907332999999198
+    },
+    {
+      "shape": "nested",
+      "size": 1000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 2.799979500000518,
+      "p90Ms": 3.4666660000002594
+    },
+    {
+      "shape": "nested",
+      "size": 1000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 2.4970624999987194,
+      "p90Ms": 3.0058329999992566
+    },
+    {
+      "shape": "nested",
+      "size": 1000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 2.499041999999463,
+      "p90Ms": 2.924875000000611
+    },
+    {
+      "shape": "nested",
+      "size": 3000,
+      "scenario": "nested",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 13.297749499999554,
+      "p90Ms": 15.63866599999892
+    },
+    {
+      "shape": "nested",
+      "size": 3000,
+      "scenario": "nested",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 8.20647949999875,
+      "p90Ms": 9.081082999997307
+    },
+    {
+      "shape": "nested",
+      "size": 3000,
+      "scenario": "nested",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 7.409666499997911,
+      "p90Ms": 8.636958000002778
+    },
+    {
+      "shape": "nested",
+      "size": 3000,
+      "scenario": "nested",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 7.6241045000006125,
+      "p90Ms": 8.972082999996928
+    },
+    {
+      "shape": "nested",
+      "size": 3000,
+      "scenario": "nested-frozen",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 0.0024580000008427305,
+      "p90Ms": 0.008583000002545305
+    },
+    {
+      "shape": "nested",
+      "size": 3000,
+      "scenario": "nested-frozen",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.002915999999459018,
+      "p90Ms": 0.004625000001396984
+    },
+    {
+      "shape": "nested",
+      "size": 3000,
+      "scenario": "nested-frozen",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.002958000000944594,
+      "p90Ms": 0.005249999998341082
+    },
+    {
+      "shape": "nested",
+      "size": 3000,
+      "scenario": "nested-frozen",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 0.0033750000002328306,
+      "p90Ms": 0.005000000001018634
+    },
+    {
+      "shape": "nested",
+      "size": 3000,
+      "scenario": "top-level",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 1.8975629999986268,
+      "p90Ms": 2.345000000001164
+    },
+    {
+      "shape": "nested",
+      "size": 3000,
+      "scenario": "top-level",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 2.1726044999995793,
+      "p90Ms": 2.792417000000569
+    },
+    {
+      "shape": "nested",
+      "size": 3000,
+      "scenario": "top-level",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 13.101146000000881,
+      "p90Ms": 15.092124999999214
+    },
+    {
+      "shape": "nested",
+      "size": 3000,
+      "scenario": "top-level",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 8.243271000003006,
+      "p90Ms": 8.972582999995211
+    },
+    {
+      "shape": "nested",
+      "size": 3000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 8.071583500004635,
+      "p90Ms": 10.62908299999981
+    },
+    {
+      "shape": "nested",
+      "size": 3000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 13.023749999996653,
+      "p90Ms": 14.452541000006022
+    },
+    {
+      "shape": "nested",
+      "size": 3000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 8.313999499998317,
+      "p90Ms": 9.114041000000725
+    },
+    {
+      "shape": "nested",
+      "size": 3000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 7.167437500000233,
+      "p90Ms": 8.10437500000262
+    },
+    {
+      "shape": "nested",
+      "size": 3000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 12.997583499996836,
+      "p90Ms": 14.228291999999783
+    },
+    {
+      "shape": "nested",
+      "size": 3000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 8.316916499999934,
+      "p90Ms": 9.251750000003085
+    },
+    {
+      "shape": "nested",
+      "size": 3000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 7.305999999996857,
+      "p90Ms": 8.461333999999624
+    },
+    {
+      "shape": "nested",
+      "size": 3000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 7.416500500003167,
+      "p90Ms": 8.403375000001688
+    },
+    {
+      "shape": "nested",
+      "size": 10000,
+      "scenario": "nested",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 43.79954199999702,
+      "p90Ms": 47.436915999998746
+    },
+    {
+      "shape": "nested",
+      "size": 10000,
+      "scenario": "nested",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 27.967083499999717,
+      "p90Ms": 30.89862500000163
+    },
+    {
+      "shape": "nested",
+      "size": 10000,
+      "scenario": "nested",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 24.73525050000171,
+      "p90Ms": 28.709917000000132
+    },
+    {
+      "shape": "nested",
+      "size": 10000,
+      "scenario": "nested",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 25.67450049999752,
+      "p90Ms": 29.94504200000665
+    },
+    {
+      "shape": "nested",
+      "size": 10000,
+      "scenario": "nested-frozen",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 0.0023329999967245385,
+      "p90Ms": 0.00466700000106357
+    },
+    {
+      "shape": "nested",
+      "size": 10000,
+      "scenario": "nested-frozen",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.0028329999913694337,
+      "p90Ms": 0.006374999997206032
+    },
+    {
+      "shape": "nested",
+      "size": 10000,
+      "scenario": "nested-frozen",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.0028750000055879354,
+      "p90Ms": 0.005291000008583069
+    },
+    {
+      "shape": "nested",
+      "size": 10000,
+      "scenario": "nested-frozen",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 0.0033750000002328306,
+      "p90Ms": 0.010709000009228475
+    },
+    {
+      "shape": "nested",
+      "size": 10000,
+      "scenario": "top-level",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 6.850583000006736,
+      "p90Ms": 8.506500000003143
+    },
+    {
+      "shape": "nested",
+      "size": 10000,
+      "scenario": "top-level",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 7.614791500003776,
+      "p90Ms": 9.766916999986279
+    },
+    {
+      "shape": "nested",
+      "size": 10000,
+      "scenario": "top-level",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 45.13649999999325,
+      "p90Ms": 50.71391700000095
+    },
+    {
+      "shape": "nested",
+      "size": 10000,
+      "scenario": "top-level",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 28.128416500003368,
+      "p90Ms": 33.85624999999709
+    },
+    {
+      "shape": "nested",
+      "size": 10000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 25.830895999999484,
+      "p90Ms": 30.13412500001141
+    },
+    {
+      "shape": "nested",
+      "size": 10000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 44.0523749999993,
+      "p90Ms": 47.161083999992115
+    },
+    {
+      "shape": "nested",
+      "size": 10000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 27.975479000000632,
+      "p90Ms": 30.971000000005006
+    },
+    {
+      "shape": "nested",
+      "size": 10000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 24.681645499993465,
+      "p90Ms": 27.67370800001663
+    },
+    {
+      "shape": "nested",
+      "size": 10000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 43.87524999999732,
+      "p90Ms": 48.243625000002794
+    },
+    {
+      "shape": "nested",
+      "size": 10000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 28.23054149998643,
+      "p90Ms": 30.945874999975786
+    },
+    {
+      "shape": "nested",
+      "size": 10000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 25.05152099998668,
+      "p90Ms": 27.578708999993978
+    },
+    {
+      "shape": "nested",
+      "size": 10000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 25.415021000007982,
+      "p90Ms": 27.501208000001498
+    },
+    {
+      "shape": "flat",
+      "size": 200,
+      "scenario": "nested",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 0.4089994999958435,
+      "p90Ms": 1.1617499999993015
+    },
+    {
+      "shape": "flat",
+      "size": 200,
+      "scenario": "nested",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 0.12677100001019426,
+      "p90Ms": 0.1668329999956768
+    },
+    {
+      "shape": "flat",
+      "size": 200,
+      "scenario": "nested",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.19968749998952262,
+      "p90Ms": 0.2739589999837335
+    },
+    {
+      "shape": "flat",
+      "size": 200,
+      "scenario": "nested",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.19389599999703933,
+      "p90Ms": 0.283832999994047
+    },
+    {
+      "shape": "flat",
+      "size": 200,
+      "scenario": "nested-frozen",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 0.002250000019557774,
+      "p90Ms": 0.0033750000002328306
+    },
+    {
+      "shape": "flat",
+      "size": 200,
+      "scenario": "nested-frozen",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.0027919999847654253,
+      "p90Ms": 0.005000000004656613
+    },
+    {
+      "shape": "flat",
+      "size": 200,
+      "scenario": "nested-frozen",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.002917000005254522,
+      "p90Ms": 0.006040999985998496
+    },
+    {
+      "shape": "flat",
+      "size": 200,
+      "scenario": "nested-frozen",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 0.0033124999899882823,
+      "p90Ms": 0.004374999989522621
+    },
+    {
+      "shape": "flat",
+      "size": 200,
+      "scenario": "top-level",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.0442919999914011,
+      "p90Ms": 0.09216600001673214
+    },
+    {
+      "shape": "flat",
+      "size": 200,
+      "scenario": "top-level",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.04327150000608526,
+      "p90Ms": 0.06241600000066683
+    },
+    {
+      "shape": "flat",
+      "size": 200,
+      "scenario": "top-level",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 0.3720210000028601,
+      "p90Ms": 0.4887919999891892
+    },
+    {
+      "shape": "flat",
+      "size": 200,
+      "scenario": "top-level",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 0.12139549998391885,
+      "p90Ms": 0.15341699999407865
+    },
+    {
+      "shape": "flat",
+      "size": 200,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.19306249999499414,
+      "p90Ms": 0.2560829999856651
+    },
+    {
+      "shape": "flat",
+      "size": 200,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 0.3626455000048736,
+      "p90Ms": 0.44325000001117587
+    },
+    {
+      "shape": "flat",
+      "size": 200,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 0.12364599999273196,
+      "p90Ms": 0.14887500001350418
+    },
+    {
+      "shape": "flat",
+      "size": 200,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.1833125000121072,
+      "p90Ms": 0.2237920000043232
+    },
+    {
+      "shape": "flat",
+      "size": 200,
+      "scenario": "replace-nested-object",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 0.362249999991036,
+      "p90Ms": 0.4097909999836702
+    },
+    {
+      "shape": "flat",
+      "size": 200,
+      "scenario": "replace-nested-object",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 0.12483349998365156,
+      "p90Ms": 0.15637499999138527
+    },
+    {
+      "shape": "flat",
+      "size": 200,
+      "scenario": "replace-nested-object",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.19125000000349246,
+      "p90Ms": 0.246541000000434
+    },
+    {
+      "shape": "flat",
+      "size": 200,
+      "scenario": "replace-nested-object",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.18489600000611972,
+      "p90Ms": 0.25700000001234
+    },
+    {
+      "shape": "flat",
+      "size": 1000,
+      "scenario": "nested",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 1.8257709999888903,
+      "p90Ms": 2.19141599998693
+    },
+    {
+      "shape": "flat",
+      "size": 1000,
+      "scenario": "nested",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 0.5706665000034263,
+      "p90Ms": 0.6785000000090804
+    },
+    {
+      "shape": "flat",
+      "size": 1000,
+      "scenario": "nested",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.9065624999930151,
+      "p90Ms": 1.2822499999892898
+    },
+    {
+      "shape": "flat",
+      "size": 1000,
+      "scenario": "nested",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.8979999999864958,
+      "p90Ms": 1.201666999986628
+    },
+    {
+      "shape": "flat",
+      "size": 1000,
+      "scenario": "nested-frozen",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 0.0023329999821726233,
+      "p90Ms": 0.009292000002460554
+    },
+    {
+      "shape": "flat",
+      "size": 1000,
+      "scenario": "nested-frozen",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.0027919999847654253,
+      "p90Ms": 0.005540999991353601
+    },
+    {
+      "shape": "flat",
+      "size": 1000,
+      "scenario": "nested-frozen",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.0028750000055879354,
+      "p90Ms": 0.006833999999798834
+    },
+    {
+      "shape": "flat",
+      "size": 1000,
+      "scenario": "nested-frozen",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 0.0033340000081807375,
+      "p90Ms": 0.014874999993480742
+    },
+    {
+      "shape": "flat",
+      "size": 1000,
+      "scenario": "top-level",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.20235399997909553,
+      "p90Ms": 0.34387499999138527
+    },
+    {
+      "shape": "flat",
+      "size": 1000,
+      "scenario": "top-level",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.21049999998649582,
+      "p90Ms": 0.3332499999960419
+    },
+    {
+      "shape": "flat",
+      "size": 1000,
+      "scenario": "top-level",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 2.058937000008882,
+      "p90Ms": 3.338000000017928
+    },
+    {
+      "shape": "flat",
+      "size": 1000,
+      "scenario": "top-level",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 0.6169375000026776,
+      "p90Ms": 0.8317920000117738
+    },
+    {
+      "shape": "flat",
+      "size": 1000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 1.0142085000115912,
+      "p90Ms": 1.7446249999920838
+    },
+    {
+      "shape": "flat",
+      "size": 1000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 1.982625000004191,
+      "p90Ms": 2.482584000012139
+    },
+    {
+      "shape": "flat",
+      "size": 1000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 0.6177709999901708,
+      "p90Ms": 1.0499579999886919
+    },
+    {
+      "shape": "flat",
+      "size": 1000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.9836249999934807,
+      "p90Ms": 1.4367499999934807
+    },
+    {
+      "shape": "flat",
+      "size": 1000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 1.8430419999931473,
+      "p90Ms": 2.430415999988327
+    },
+    {
+      "shape": "flat",
+      "size": 1000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 0.5711874999979045,
+      "p90Ms": 0.6912080000038259
+    },
+    {
+      "shape": "flat",
+      "size": 1000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.882499999992433,
+      "p90Ms": 1.0850419999915175
+    },
+    {
+      "shape": "flat",
+      "size": 1000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.8875830000033602,
+      "p90Ms": 1.1495839999988675
+    },
+    {
+      "shape": "flat",
+      "size": 3000,
+      "scenario": "nested",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 5.487145999999484,
+      "p90Ms": 6.002708999993047
+    },
+    {
+      "shape": "flat",
+      "size": 3000,
+      "scenario": "nested",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 1.7257704999938142,
+      "p90Ms": 2.093624999979511
+    },
+    {
+      "shape": "flat",
+      "size": 3000,
+      "scenario": "nested",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 2.567250000007334,
+      "p90Ms": 3.2524580000026617
+    },
+    {
+      "shape": "flat",
+      "size": 3000,
+      "scenario": "nested",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 2.5425629999954253,
+      "p90Ms": 3.15729200001806
+    },
+    {
+      "shape": "flat",
+      "size": 3000,
+      "scenario": "nested-frozen",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 0.0023329999821726233,
+      "p90Ms": 0.008791999978711829
+    },
+    {
+      "shape": "flat",
+      "size": 3000,
+      "scenario": "nested-frozen",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.0027920000138692558,
+      "p90Ms": 0.010167000000365078
+    },
+    {
+      "shape": "flat",
+      "size": 3000,
+      "scenario": "nested-frozen",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.0028544999950099736,
+      "p90Ms": 0.004125000006752089
+    },
+    {
+      "shape": "flat",
+      "size": 3000,
+      "scenario": "nested-frozen",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 0.003333000000566244,
+      "p90Ms": 0.004417000018293038
+    },
+    {
+      "shape": "flat",
+      "size": 3000,
+      "scenario": "top-level",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.5179795000003651,
+      "p90Ms": 0.7389170000096783
+    },
+    {
+      "shape": "flat",
+      "size": 3000,
+      "scenario": "top-level",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.5951250000071013,
+      "p90Ms": 0.7619579999882262
+    },
+    {
+      "shape": "flat",
+      "size": 3000,
+      "scenario": "top-level",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 5.515188000004855,
+      "p90Ms": 6.118291999999201
+    },
+    {
+      "shape": "flat",
+      "size": 3000,
+      "scenario": "top-level",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 1.758500500000082,
+      "p90Ms": 2.0257910000218544
+    },
+    {
+      "shape": "flat",
+      "size": 3000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 2.5680000000138534,
+      "p90Ms": 3.090250000008382
+    },
+    {
+      "shape": "flat",
+      "size": 3000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 5.501729499985231,
+      "p90Ms": 6.183875000016997
+    },
+    {
+      "shape": "flat",
+      "size": 3000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 1.9066659999953117,
+      "p90Ms": 2.8404169999994338
+    },
+    {
+      "shape": "flat",
+      "size": 3000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 2.4968545000010636,
+      "p90Ms": 3.078208999999333
+    },
+    {
+      "shape": "flat",
+      "size": 3000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 5.517312500000116,
+      "p90Ms": 6.177250000007916
+    },
+    {
+      "shape": "flat",
+      "size": 3000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 1.7163540000037756,
+      "p90Ms": 2.010999999998603
+    },
+    {
+      "shape": "flat",
+      "size": 3000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 2.556728999988991,
+      "p90Ms": 3.126124999980675
+    },
+    {
+      "shape": "flat",
+      "size": 3000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 2.6130205000081332,
+      "p90Ms": 3.391334000014467
+    },
+    {
+      "shape": "flat",
+      "size": 10000,
+      "scenario": "nested",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 18.533333000013954,
+      "p90Ms": 20.120374999998603
+    },
+    {
+      "shape": "flat",
+      "size": 10000,
+      "scenario": "nested",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 6.040500499992049,
+      "p90Ms": 6.883541999995941
+    },
+    {
+      "shape": "flat",
+      "size": 10000,
+      "scenario": "nested",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 8.465541500001564,
+      "p90Ms": 9.312750000011874
+    },
+    {
+      "shape": "flat",
+      "size": 10000,
+      "scenario": "nested",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 8.767395499991835,
+      "p90Ms": 9.88100000002305
+    },
+    {
+      "shape": "flat",
+      "size": 10000,
+      "scenario": "nested-frozen",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 0.002250000019557774,
+      "p90Ms": 0.007833999989088625
+    },
+    {
+      "shape": "flat",
+      "size": 10000,
+      "scenario": "nested-frozen",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 0.0027919999847654253,
+      "p90Ms": 0.00604199999361299
+    },
+    {
+      "shape": "flat",
+      "size": 10000,
+      "scenario": "nested-frozen",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 0.002874999976484105,
+      "p90Ms": 0.009874999988824129
+    },
+    {
+      "shape": "flat",
+      "size": 10000,
+      "scenario": "nested-frozen",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 0.003333000000566244,
+      "p90Ms": 0.0043329999898560345
+    },
+    {
+      "shape": "flat",
+      "size": 10000,
+      "scenario": "top-level",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 1.75768799999787,
+      "p90Ms": 2.4092080000264104
+    },
+    {
+      "shape": "flat",
+      "size": 10000,
+      "scenario": "top-level",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 1.9377710000117077,
+      "p90Ms": 2.692957999999635
+    },
+    {
+      "shape": "flat",
+      "size": 10000,
+      "scenario": "top-level",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 18.697125000006054,
+      "p90Ms": 20.46508399999584
+    },
+    {
+      "shape": "flat",
+      "size": 10000,
+      "scenario": "top-level",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 5.982124999994994,
+      "p90Ms": 6.639041000016732
+    },
+    {
+      "shape": "flat",
+      "size": 10000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 8.633478999996441,
+      "p90Ms": 9.601875000022119
+    },
+    {
+      "shape": "flat",
+      "size": 10000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 18.523978999990504,
+      "p90Ms": 19.924874999996973
+    },
+    {
+      "shape": "flat",
+      "size": 10000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 6.064708000005339,
+      "p90Ms": 6.816958000010345
+    },
+    {
+      "shape": "flat",
+      "size": 10000,
+      "scenario": "top-level-plus-nested-write",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 8.742021000012755,
+      "p90Ms": 10.144582999986596
+    },
+    {
+      "shape": "flat",
+      "size": 10000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-10.1.1",
+      "version": "10.1.1",
+      "medianMs": 18.350332999994862,
+      "p90Ms": 20.052416999998968
+    },
+    {
+      "shape": "flat",
+      "size": 10000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-10.2.0",
+      "version": "10.2.0",
+      "medianMs": 6.029958499973873,
+      "p90Ms": 6.969584000005852
+    },
+    {
+      "shape": "flat",
+      "size": 10000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-11.0.0",
+      "version": "11.0.0",
+      "medianMs": 8.71718750000582,
+      "p90Ms": 10.04595899998094
+    },
+    {
+      "shape": "flat",
+      "size": 10000,
+      "scenario": "replace-nested-object",
+      "alias": "immer-latest",
+      "version": "11.2.6",
+      "medianMs": 8.807937999998103,
+      "p90Ms": 10.006334000005154
+    }
+  ],
+  "finishedAt": "2026-10-21T14:30:11.591Z"
+}

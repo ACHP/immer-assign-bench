@@ -1,0 +1,16 @@
+{
+  "name": "immer-assign-bench",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "bench": "node --expose-gc bench.mjs",
+    "bench:auto-freeze": "node --expose-gc bench.mjs --auto-freeze --output results-auto-freeze.json",
+    "embedded-draft": "node embedded-draft.mjs"
+  },
+  "dependencies": {
+    "immer-10.1.1": "npm:immer@10.1.1",
+    "immer-10.2.0": "npm:immer@10.2.0",
+    "immer-11.0.0": "npm:immer@11.0.0",
+    "immer-latest": "npm:immer@11.2.6"
+  }
+}
